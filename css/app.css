@@ -80,6 +80,11 @@ button.menu-icon:after {
 	border-left: 2px solid #F7B2B7;
 	color: #f7f7f7;
 }
+.about-text p a {
+	color: #000;
+	font-weight: 600;
+}
+
 .title {
 	background: #F7B2B7;
 	color: #222;
@@ -192,7 +197,7 @@ img {
 p a {
 	padding: .2rem .2rem;
 }
-p a:hover {
+p a:hover, .about-text p a:hover {
 	background: #25B798;
 	color: #f7f7f7;
 	-webkit-transition: ease .3s;
